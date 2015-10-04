@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+    <title>Vinyl Player</title>
+    <style>
+        #container {
+            position: absolute;
+            z-index: -10;
+            width: 1024px;
+            height: 768px;
+            left: 50%;
+            margin-left: -512px;
+            top: 50%;
+            margin-top: -385px;
+        }
+        #disc {
+            position: absolute;
+            z-index: 0;
+            left: 141px;
+            top: 89px;
+        }
+        #overlay {
+            position: absolute;
+            z-index: 10;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="player.png" id="player" />
+        <img src="disc.png" id="disc" />
+        <img src="overlay.png" id="overlay" />
+    </div>
+</body>
